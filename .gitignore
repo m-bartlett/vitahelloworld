@@ -1,0 +1,8 @@
+draw.o
+eboot.bin
+font_data.o
+main.o
+param.sfo
+vitahelloworld.elf
+vitahelloworld.velf
+vitahelloworld.vpk

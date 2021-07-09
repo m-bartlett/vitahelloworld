@@ -89,10 +89,12 @@ int main()
 
 		/* Move using the left yoystick */
 		if (abs(lx) > 50) {
-			x += speed * lx/50.0f;
+			//x += speed * lx/50.0f;
+			x = (pad.lx*(long)SCREEN_W)/255;
 		}
 		if (abs(ly) > 50) {
-			y += speed * ly/50.0f;
+			//y += speed * ly/50.0f;
+			y = (pad.ly*(long)SCREEN_H)/255;
 		}
 
 		/* Resize using the right yoystick */
